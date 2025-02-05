@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+header nav {
+  padding: 12px 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header ul li a{
+  color: black ;
+  font-size: 17px ;
+  margin-left: 50px ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header ul li a:hover{
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body h5{
+  font-size: 48px;
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+.card-body h5 span {
+  font-size: 40px;
+  opacity: 0.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-text span{
+  display: block;
+}
+
+.card-body button{
+  width: 100% ;
+}
+
+.card-block{
+  max-width: 960px;
+  min-width: 482px;
+}
+
+.card-block .col{
+  min-width: 220px;
+}
+
+.container {
+  padding-bottom: 80px;
+}
+
+
+footer img {
+  width: 64px;
+  object-fit: cover;
+  object-position: center;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+footer ul a:hover{
+  text-decoration: underline;
+  opacity: 1;
+}
+
+footer .container{
+  max-width: 960px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer .row div{
+  margin-bottom: 12px;
 }
